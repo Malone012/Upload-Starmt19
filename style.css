@@ -124,6 +124,27 @@ body {
 }
 
 
+/* Animation */
+
+@keyframes sprite {
+  to { background-position: -448px }
+}
+
+.terminal {
+  height: 120px;
+  width: 112px;
+  background: url("sprite.png");
+  animation: sprite 0.75s steps(4) infinite;
+  transform: translate(-25%, -25%) scale(0.5);
+}
+
+@media only screen and (min-width: 1024px) {
+  .terminal {
+    transform: scale(1);
+  }
+}
+
+
 /* Bouton */
 
 .stretch, .button:after, .button:before {
