@@ -34,7 +34,7 @@ body {
 	background: #3E3D4C;
 }
 #navigation {
-	margin-top: 100px;
+	margin-top: 50px;
 	width: 18%;
 	float: left; 
 }
@@ -71,7 +71,7 @@ body {
 #contenu {
 	margin-left: 20%;
 	margin-right: 20%;
-	margin-top: 100px; 
+	margin-top: 50px; 
 	margin-bottom: 20px;
 	padding: 10px 20px;
 	font-size: 1.25em;
@@ -83,6 +83,36 @@ body {
 	line-height: 1.5;
 }
 
+
+/* Description */
+
+#description {
+	color: #3E3D4C;
+	background: #21263F; 
+}
+#description a {
+	color: #332510;
+}
+#description a:hover, #contenu a:focus {
+	color: #3E3D4C;
+}
+#description strong {
+	color: #3E3D4C;
+}
+#description {
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 30px; 
+	margin-bottom: 0px;
+	padding: 20px 50px;
+	font-size: 1.5em;
+}
+#description > :first-child {
+	margin-top: 10px;
+}
+#description p, #contenu li {
+	line-height: 2;
+}
 
 
 /* Bouton */
