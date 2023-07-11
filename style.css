@@ -55,7 +55,7 @@ body {
 #navigation a {
 	display: block;
 	height: 1%; 
-	padding: 6px 6px 25px 120px;
+	padding: 6px 6px 25px 0px;
 	line-height: 1.5;
 	font-size: 1.25em;
 	text-decoration: none;
@@ -65,7 +65,7 @@ body {
 /* Contenu */
 
 #contenu {
-	color: #3E3D4C;
+	color: #ffffff;
 	background: #21263F; 
 }
 #contenu a {
@@ -96,7 +96,7 @@ body {
 /* Description */
 
 #description {
-	color: #3E3D4C;
+	color: #ffffff;
 	background: #21263F; 
 }
 #description a {
