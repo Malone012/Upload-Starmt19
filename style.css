@@ -4,7 +4,13 @@ element.style {
 
 /* Image */
 
-.user_page .header .image_header img {
+#image {
+    width: 500;
+    height: 86;
+    display: none;
+    margin: 0 auto;
+}
+#image2 {
     max-width: 100%;
     max-height: 1024px;
     width: auto;
@@ -12,7 +18,10 @@ element.style {
     display: block;
     margin: 0 auto;
 }
-
+@media all and (max-width: 500px) {
+  #image2 { display: none; }
+  #image { display: block; }
+}
 
 /* Arrière-Plan */
 
